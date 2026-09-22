@@ -1,0 +1,1099 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Primary SEO -->
+    <title>Vaishnavi Gupta | Business Analyst</title>
+    <meta name="description" content="Portfolio of Vaishnavi Gupta, a Business Analyst specializing in data analysis, SQL, Power BI, and Excel — turning raw data into clear, actionable business insights." />
+  <meta name="keywords" content="Vaishnavi Gupta, Business Analyst, Data Analyst, SQL, Power BI, Excel, Data Visualization, Portfolio" />
+  <meta name="author" content="Vaishnavi Gupta" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://vaishnavi-gupta.vercel.app" />
+
+  <!-- Open Graph (Facebook, LinkedIn, WhatsApp previews) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Vaishnavi Gupta | Business Analyst" />
+  <meta property="og:description" content="Portfolio of Vaishnavi Gupta, a Business Analyst specializing in data analysis, SQL, Power BI, and Excel." />
+  <meta property="og:image" content="https://vaishnavi-gupta.vercel.app/android-chrome-512x512.png" />
+  <meta property="og:url" content="https://vaishnavi-gupta.vercel.app/" />
+  <meta property="og:site_name" content="Vaishnavi Gupta Portfolio" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Vaishnavi Gupta | Business Analyst" />
+  <meta name="twitter:description" content="Portfolio of Vaishnavi Gupta, a Business Analyst specializing in data analysis, SQL, Power BI, and Excel." />
+  <meta name="twitter:image" content="https://vaishnavi-gupta.vercel.app/android-chrome-512x512.png" />
+
+<!-- Theme -->
+  <meta name="theme-color" content="#4f46e5" />
+
+<!-- Icons & Manifest (yours, unchanged) -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+<!-- Stylesheet -->
+  <link href="/src/style.css" rel="stylesheet" />
+
+    <style>
+      .about-img-frame {
+        position: relative;
+      }
+      .about-img-frame::before {
+        content: "";
+        position: absolute;
+        top: -12px;
+        left: -12px;
+        width: 100%;
+        height: 100%;
+        border: 3px solid #6366f1;
+        border-radius: 1rem;
+        z-index: 0;
+      }
+      .about-img-frame img {
+        position: relative;
+        z-index: 1;
+      }
+    </style>
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+  </head>
+  <body
+    class="min-h-screen bg-linear-to-br from-sky-50 via-white to-indigo-50 text-slate-800 font-sans antialiased transition-all scroll-behavior: smooth  text-justify"
+  >
+    <div id="app"></div>
+
+    <!-- NAVBAR -->
+    <nav
+      class="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-sky-100/60 border-b border-b-blue-700 shadow-sm"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between">
+          <!-- Logo -->
+          <div class="text-xl font-bold text-indigo-600 p-2">
+            <img
+              src="Vg.png"
+              alt="Website logo"
+              class="w-15 h-15 rounded-2xl border-slate-900 border"
+            />
+          </div>
+
+          <!-- Center Nav Links (desktop only) -->
+          <div
+            class="hidden md:flex md:items-center md:justify-center md:space-x-8 flex-1"
+          >
+            <a
+              href="#home"
+              class="text-slate-700 hover:text-indigo-600 hover:scale-110 font-medium transition-all duration-300"
+              >Home</a
+            >
+            <a
+              href="#about"
+              class="text-slate-700 hover:text-indigo-600 font-medium transition-all hover:scale-110 duration-300"
+              >About</a
+            >
+            <a
+              href="#skills"
+              class="text-slate-700 hover:text-indigo-600 font-medium transition-all hover:scale-110 duration-300"
+              >Skills</a
+            >
+            <a
+              href="#education"
+              class="text-slate-700 hover:text-indigo-600 font-medium transition-all hover:scale-110 duration-300"
+              >Education</a
+            >
+            <a
+              href="#projects"
+              class="text-slate-700 hover:text-indigo-600 font-medium transition-all hover:scale-110 duration-300"
+              >Projects</a
+            >
+
+            <a
+              href="#contact"
+              class="text-slate-700 hover:text-indigo-600 font-medium transition-all hover:scale-110 duration-300"
+              >Contact</a
+            >
+          </div>
+
+          <!-- Resume Button (desktop, right) -->
+          <div class="hidden md:flex md:items-center">
+            <a
+              href="https://drive.google.com/file/d/1PAS8kPZdpLYaLApk2aayVftqkc28HSj2/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="px-4 py-2 rounded-full bg-indigo-600 text-white text-sm font-medium hover:bg-indigo-700 transition-all hover:scale-110 duration-300"
+            >
+              View Resume
+            </a>
+          </div>
+
+          <!-- Hamburger (mobile only) -->
+          <div class="flex md:hidden">
+            <button
+              id="menu-btn"
+              aria-label="Toggle navigation menu"
+              aria-controls="mobile-menu"
+              aria-expanded="false"
+              class="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-indigo-200 bg-sky-100/80 text-indigo-600 shadow-sm transition-colors hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+            >
+              <svg
+                id="icon-open"
+                class="w-7 h-7"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+              <svg
+                id="icon-close"
+                class="w-7 h-7 hidden"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden border-t border-white/40 bg-sky-100/80 backdrop-blur-md"
+      >
+        <div class="flex flex-col space-y-1 px-4 py-4">
+          <a
+            href="#home"
+            class="rounded-lg px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:bg-indigo-100 hover:text-indigo-600"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="rounded-lg px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:bg-indigo-100 hover:text-indigo-600 hover:scale-105"
+            >About</a
+          >
+          <a
+            href="#skills"
+            class="rounded-lg px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:bg-indigo-100 hover:text-indigo-600"
+            >Skills</a
+          >
+          <a
+            href="#education"
+            class="rounded-lg px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:bg-indigo-100 hover:text-indigo-600"
+            >Education</a
+          >
+          <a
+            href="#projects"
+            class="rounded-lg px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:bg-indigo-100 hover:text-indigo-600"
+            >Projects</a
+          >
+
+          <a
+            href="#contact"
+            class="rounded-lg px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:bg-indigo-100 hover:text-indigo-600"
+            >Contact</a
+          >
+          <a
+            href="#resume"
+            class="mt-2 px-4 py-2 rounded-full bg-indigo-600 text-white text-sm font-medium text-center hover:bg-indigo-700"
+          >
+            View Resume
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Body section -->
+
+    <!-- Page content placeholder so you can see fixed navbar behavior on scroll -->
+    <main class="pt-10">
+      <!-- Home section -->
+      <!-- bg-[#e7d0f0] -->
+      <section
+        id="home"
+        class="bg-[url('/Home-bg-1.png')] bg-cover bg-center min-h-screen flex flex-col items-center justify-center px-6 text-center"
+      >
+        <!-- Profile Image with glow -->
+        <div class="relative mb-2">
+          <div
+            class="absolute inset-0 rounded-full bg-indigo-400 blur-2xl opacity-40 animate-pulse"
+          ></div>
+          <img
+            src="Vaishnavi.jpg"
+            alt="Vaishnavi Gupta"
+            class="relative w-40 h-40 md:w-48 md:h-48 lg:w-60 lg:h-60 rounded-full object-cover border-4 border-white shadow-xl hover:scale-110 transition-all duration-300"
+          />
+        </div>
+
+        <!-- Name -->
+        <h1 class="text-3xl md:text-5xl font-bold text-slate-950">
+          Vaishnavi Gupta
+        </h1>
+
+        <!-- Role -->
+        <p class="mt-2 text-sm md:text-base font-medium text-indigo-600">
+          Business Analyst | Power BI | Analysis & Dashboard Generation
+        </p>
+
+        <!-- About -->
+        <p class="mt-4 max-w-xl text-sm md:text-base text-slate-900">
+          Analyzing and visualizing data to make better and informed business
+          decisions
+        </p>
+
+        <!-- Availability -->
+        <div
+          class="mt-5 flex items-center gap-2 px-4 py-1.5 rounded-full bg-green-50 border border-green-200"
+        >
+          <span class="relative flex h-2.5 w-2.5">
+            <span
+              class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"
+            ></span>
+            <span
+              class="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"
+            ></span>
+          </span>
+          <span class="text-sm font-medium text-green-700"
+            >Available to work</span
+          >
+        </div>
+
+        <!-- Buttons -->
+        <div class="mt-8 flex items-center gap-4">
+          <a
+            href="https://github.com/VaishVaishnavi2004"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center gap-2 px-5 py-2.5 rounded-full bg-slate-800 text-white text-sm font-medium hover:bg-slate-900 transition-all hover:scale-105 duration-300"
+          >
+            <iconify-icon
+              icon="mdi:github"
+              style="font-size: 20px"
+            ></iconify-icon>
+            GitHub
+          </a>
+          <a
+            href="https://linkedin.com/in/vaishnavigupta90"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center gap-2 px-5 py-2.5 rounded-full bg-indigo-600 text-white text-sm font-medium hover:bg-indigo-700 transition-all hover:scale-105 duration-300"
+          >
+            <iconify-icon
+              icon="mdi:linkedin"
+              style="font-size: 20px"
+            ></iconify-icon>
+            LinkedIn
+          </a>
+        </div>
+      </section>
+
+      <!-- About section -->
+
+      <section
+        id="about"
+        class="bg-[#dcf0fa] flex items-center px-6 md:px-16 py-12"
+      >
+        <div
+          class="max-w-6xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+        >
+          <!-- Left: Text -->
+          <div class="order-2 lg:order-1 text-justify">
+            <p
+              class="text-indigo-600 font-medium text-sm uppercase tracking-wide mb-2"
+            >
+              About Me
+            </p>
+            <h2 class="text-3xl md:text-4xl font-bold text-slate-800 mb-5">
+              Get to know me
+            </h2>
+            <p class="text-slate-600 leading-relaxed mb-4">
+              I'm a
+              <span class="text-slate-900 font-medium">Business Analyst</span>
+              focused on understanding business requirements, analyzing data,
+              and turning business needs into practical solutions. I enjoy
+              working with data, processes, and technology to support better
+              business decisions.
+            </p>
+
+            <p class="text-slate-600 leading-relaxed mb-4">
+              I have a practical understanding of
+              <span class="text-slate-900 font-medium"
+                >SQL, Excel, Power BI, and requirement analysis</span
+              >, along with an interest in understanding how businesses use
+              technology to improve their processes.
+            </p>
+
+            <p class="text-slate-600 leading-relaxed mb-4">
+              My technical background helps me understand both
+              <span class="text-slate-900 font-medium"
+                >business requirements and technical solutions</span
+              >, allowing me to communicate effectively between business and
+              development teams.
+            </p>
+
+            <p class="text-slate-600 leading-relaxed mb-4">
+              As a
+              <span class="text-slate-900 font-medium"
+                >fresher Business Analyst</span
+              >, I'm continuously developing my analytical, problem-solving,
+              documentation, and communication skills through practical learning
+              and projects.
+            </p>
+
+            <p class="text-slate-600 leading-relaxed mb-4">
+              I'm passionate about connecting
+              <span class="text-slate-900 font-medium"
+                >business needs, data, and technology</span
+              >
+              to create solutions that are useful, efficient, and meaningful.
+            </p>
+
+            <p class="text-slate-600 leading-relaxed mb-4">
+              I enjoy writing clean, maintainable code and I'm currently
+              exploring Agentic AI to build smarter, more capable user
+              experiences beyond traditional web apps.
+            </p>
+            <div class="flex flex-wrap gap-3 mt-6">
+              <span
+                class="px-4 py-1.5 rounded-full bg-white/20 backdrop-blur-md text-sm font-medium text-slate-700 border border-white/40 shadow-[0_15px_35px_-5px_rgba(0,0,0,0.5)] -translate-y-1 translate-x-1 cursor-pointer transition-all duration-300 hover:bg-[#60f7ff]"
+                >Problem Solver</span
+              >
+              <span
+                class="px-4 py-1.5 rounded-full bg-white/20 backdrop-blur-md text-sm font-medium text-slate-700 border border-white/40 shadow-[0_15px_35px_-5px_rgba(0,0,0,0.5)] -translate-y-1 translate-x-1 cursor-pointer transition-all duration-300 hover:bg-[#60f7ff]"
+                >Fast Learner</span
+              >
+              <span
+                class="px-4 py-1.5 rounded-full bg-white/20 backdrop-blur-md text-sm font-medium text-slate-700 border border-white/40 shadow-[0_15px_35px_-5px_rgba(0,0,0,0.5)] -translate-y-1 translate-x-1 cursor-pointer transition-all duration-300 hover:bg-[#60f7ff]"
+                >Detail Oriented</span
+              >
+            </div>
+          </div>
+
+          <!-- Right: Image -->
+          <div class="order-1 lg:order-2 flex justify-center lg:justify-end">
+            <div
+              class="about-img-frame w-64 h-64 md:w-80 md:h-80 hover:scale-110 transition-all duration-300"
+            >
+              <img
+                src="Vaishnavi.jpg"
+                alt="About Prteek Gupta"
+                class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-2xl shadow-2xl border-4 border-white"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+
+      <section id="skills" class="py-20 px-4 sm:px-6 lg:px-8 bg-[#ffe2e2]">
+        <div class="max-w-6xl mx-auto">
+          <!-- Heading -->
+          <div class="mb-12">
+            <p
+              class="text-indigo-600 text-sm sm:text-base tracking-[0.2em] uppercase font-medium"
+            >
+              Skills
+            </p>
+            <h2 class="mt-2 text-4xl sm:text-5xl font-bold text-slate-900">
+              Technologies I Use
+            </h2>
+          </div>
+
+          <!-- Categories (rendered by JS) -->
+          <div id="skills-container" class="space-y-12"></div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+
+      <section id="education" class="py-20 px-6 bg-indigo-50">
+        <div class="max-w-5xl mx-auto">
+          <!-- Heading -->
+          <div class="mb-16 text-center lg:text-left">
+            <p
+              class="text-indigo-600 text-sm tracking-[0.2em] uppercase font-medium"
+            >
+              Education
+            </p>
+            <h2 class="mt-2 text-4xl sm:text-5xl font-bold text-slate-900">
+              My Academic Journey
+            </h2>
+          </div>
+
+          <div class="relative">
+            <!-- vertical line: mobile / small screens -->
+            <div
+              class="lg:hidden absolute left-1/2 top-0 bottom-0 w-0.5 -translate-x-1/2 bg-indigo-200"
+            ></div>
+
+            <!-- horizontal line: large screens -->
+            <div
+              class="hidden lg:block absolute top-1/2 left-0 right-0 h-0.5 -translate-y-1/2 bg-indigo-200"
+            ></div>
+
+            <!-- Timeline grid -->
+            <div
+              class="relative z-10 grid grid-cols-[1fr_2rem_1fr] grid-rows-3 gap-y-12 lg:grid-cols-3 lg:grid-rows-[1fr_2rem_1fr] lg:gap-y-0 lg:gap-x-10"
+            >
+              <!-- ===== ITEM 1: BCA (top on desktop, left on mobile) ===== -->
+              <div
+                class="col-start-1 row-start-1 flex justify-end lg:col-start-1 lg:row-start-1 lg:justify-center lg:items-end lg:pb-6"
+              >
+                <div
+                  class="max-w-xs w-full bg-white border border-slate-200 rounded-2xl shadow-md p-5 text-right lg:text-center"
+                >
+                  <p class="text-xs font-semibold text-indigo-600">
+                    2023 - 2026
+                  </p>
+                  <h3 class="mt-1 font-semibold text-slate-800">
+                    Bachelor of Computer Applications
+                  </h3>
+                  <p class="mt-1 text-sm text-slate-500">
+                    Invertis University, Bareilly
+                  </p>
+                </div>
+              </div>
+              <div
+                class="col-start-2 row-start-1 flex justify-center items-center lg:col-start-1 lg:row-start-2"
+              >
+                <span
+                  class="w-4 h-4 rounded-full bg-indigo-600 border-4 border-white shadow-md animate-[ping_1s_linear_infinite]"
+                ></span>
+              </div>
+
+              <!-- ===== ITEM 2: 12th Grade (bottom on desktop, right on mobile) ===== -->
+              <div
+                class="col-start-2 row-start-2 flex justify-center items-center lg:col-start-2 lg:row-start-2"
+              >
+                <span
+                  class="w-4 h-4 rounded-full bg-indigo-600 border-4 border-white shadow-md"
+                ></span>
+              </div>
+              <div
+                class="col-start-3 row-start-2 flex justify-start lg:col-start-2 lg:row-start-3 lg:justify-center lg:items-start lg:pt-6"
+              >
+                <div
+                  class="max-w-xs w-full bg-white border border-slate-200 rounded-2xl shadow-md p-5 text-left lg:text-center"
+                >
+                  <p class="text-xs font-semibold text-indigo-600">
+                    2021 - 2022
+                  </p>
+                  <h3 class="mt-1 font-semibold text-slate-800">12th Grade</h3>
+                  <p class="mt-1 text-sm text-slate-500">
+                    Florence Nightingale Public School, Badaun
+                  </p>
+                </div>
+              </div>
+
+              <!-- ===== ITEM 3: 10th Grade (top on desktop, left on mobile) ===== -->
+              <div
+                class="col-start-1 row-start-3 flex justify-end lg:col-start-3 lg:row-start-1 lg:justify-center lg:items-end lg:pb-6"
+              >
+                <div
+                  class="max-w-xs w-full bg-white border border-slate-200 rounded-2xl shadow-md p-5 text-right lg:text-center"
+                >
+                  <p class="text-xs font-semibold text-indigo-600">
+                    2019 - 2020
+                  </p>
+                  <h3 class="mt-1 font-semibold text-slate-800">10th Grade</h3>
+                  <p class="mt-1 text-sm text-slate-500">
+                    Florence Nightingale Public School, Badaun
+                  </p>
+                </div>
+              </div>
+              <div
+                class="col-start-2 row-start-3 flex justify-center items-center lg:col-start-3 lg:row-start-2"
+              >
+                <span
+                  class="w-4 h-4 rounded-full bg-indigo-600 border-4 border-white shadow-md"
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Project Section -->
+
+      <section id="projects" class="py-20 px-4 sm:px-6 lg:px-8 bg-[#fbe3ff]">
+        <div class="max-w-7xl mx-auto">
+          <!-- Heading -->
+          <div class="mb-14 text-center">
+            <p
+              class="text-indigo-600 text-sm sm:text-base tracking-[0.2em] uppercase font-medium"
+            >
+              Selected Work
+            </p>
+            <h2 class="mt-2 text-4xl sm:text-5xl font-bold text-slate-900">
+              Featured Projects
+            </h2>
+          </div>
+
+          <!-- Cards -->
+          <div class="flex flex-wrap justify-center gap-8">
+            <!-- CARD 1 -->
+            <div
+              class="w-full sm:w-85 rounded-2xl overflow-hidden bg-white shadow-lg border border-slate-100 hover:-translate-y-1 hover:shadow-2xl transition-all duration-300"
+            >
+              <!-- Top: diagonal gradient + lifted image -->
+              <div
+                class="relative h-48 bg-linear-to-br from-indigo-500 via-purple-500 to-pink-400 flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="./assets/images/project1.png"
+                  alt="Sales Performance Dashboard preview"
+                  class="w-[85%] rounded-lg shadow-[0_20px_35px_-10px_rgba(0,0,0,0.6)] rotate-1"
+                />
+              </div>
+
+              <!-- Bottom: details -->
+              <div class="p-6">
+                <h3 class="text-lg font-semibold text-slate-900">
+                  Sales Performance Dashboard
+                </h3>
+
+                <ul class="mt-3 space-y-1.5 text-sm text-slate-600">
+                  <li class="flex items-start gap-2">
+                    <iconify-icon
+                      icon="mdi:check-circle"
+                      class="text-indigo-500 mt-0.5 shrink-0"
+                    ></iconify-icon>
+                    Developed Power BI dashboard analyzing sales trends and
+                    customer behavior
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <iconify-icon
+                      icon="mdi:check-circle"
+                      class="text-indigo-500 mt-0.5 shrink-0"
+                    ></iconify-icon>
+                    Utilized SQL queries to extract, clean, and manipulate large
+                    datasets from a retail database
+                  </li>
+                </ul>
+
+                <div class="mt-4 flex flex-wrap gap-2">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-600 text-xs font-medium"
+                    >Power BI</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-600 text-xs font-medium"
+                    >SQL</span
+                  >
+                </div>
+
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="group mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-indigo-600 hover:text-indigo-800 transition-colors"
+                >
+                  View Project
+                  <iconify-icon
+                    icon="mdi:arrow-right"
+                    class="text-base transition-transform duration-300 group-hover:translate-x-1"
+                  ></iconify-icon>
+                </a>
+              </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div
+              class="w-full sm:w-85 rounded-2xl overflow-hidden bg-white shadow-lg border border-slate-100 hover:-translate-y-1 hover:shadow-2xl transition-all duration-300"
+            >
+              <div
+                class="relative h-48 bg-linear-to-br from-cyan-500 via-blue-500 to-indigo-500 flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="./assets/images/project2.png"
+                  alt="Data Cleaning & Transformation preview"
+                  class="w-[85%] rounded-lg shadow-[0_20px_35px_-10px_rgba(0,0,0,0.6)] -rotate-1"
+                />
+              </div>
+              <!-- card 3 -->
+              <div class="p-6">
+                <h3 class="text-lg font-semibold text-slate-900">
+                  Data Cleaning & Transformation
+                </h3>
+
+                <ul class="mt-3 space-y-1.5 text-sm text-slate-600">
+                  <li class="flex items-start gap-2">
+                    <iconify-icon
+                      icon="mdi:check-circle"
+                      class="text-cyan-500 mt-0.5 shrink-0"
+                    ></iconify-icon>
+                    Cleaned, structured, and transformed raw datasets using
+                    Excel formulas, Power Query, and SQL functions
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <iconify-icon
+                      icon="mdi:check-circle"
+                      class="text-cyan-500 mt-0.5 shrink-0"
+                    ></iconify-icon>
+                    Ensured data accuracy and consistency, reducing errors by
+                    95%
+                  </li>
+                </ul>
+
+                <div class="mt-4 flex flex-wrap gap-2">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-cyan-50 text-cyan-600 text-xs font-medium"
+                    >Excel</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-cyan-50 text-cyan-600 text-xs font-medium"
+                    >Power Query</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-cyan-50 text-cyan-600 text-xs font-medium"
+                    >SQL</span
+                  >
+                </div>
+
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="group mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-cyan-600 hover:text-cyan-800 transition-colors"
+                >
+                  View Project
+                  <iconify-icon
+                    icon="mdi:arrow-right"
+                    class="text-base transition-transform duration-300 group-hover:translate-x-1"
+                  ></iconify-icon>
+                </a>
+              </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div
+              class="w-full sm:w-85 rounded-2xl overflow-hidden bg-white shadow-lg border border-slate-100 hover:-translate-y-1 hover:shadow-2xl transition-all duration-300"
+            >
+              <div
+                class="relative h-48 bg-linear-to-br from-emerald-500 via-teal-500 to-cyan-500 flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="./assets/images/project3.png"
+                  alt="Zomato Restaurant Analysis preview"
+                  class="w-[85%] rounded-lg shadow-[0_20px_35px_-10px_rgba(0,0,0,0.6)] rotate-1"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-lg font-semibold text-slate-900">
+                  Zomato Restaurant Analysis
+                </h3>
+
+                <ul class="mt-3 space-y-1.5 text-sm text-slate-600">
+                  <li class="flex items-start gap-2">
+                    <iconify-icon
+                      icon="mdi:check-circle"
+                      class="text-emerald-500 mt-0.5 shrink-0"
+                    ></iconify-icon>
+                    Analyzed a dataset of 9,551 restaurants across 15+
+                    countries, showing an average rating of 2.6/5 and average
+                    cost of 1.2K
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <iconify-icon
+                      icon="mdi:check-circle"
+                      class="text-emerald-500 mt-0.5 shrink-0"
+                    ></iconify-icon>
+                    Crafted Power BI reports for global and
+                    restaurant-performance analysis using Power Query, charts,
+                    and DAX
+                  </li>
+                </ul>
+
+                <div class="mt-4 flex flex-wrap gap-2">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-600 text-xs font-medium"
+                    >Power BI</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-600 text-xs font-medium"
+                    >Power Query</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-600 text-xs font-medium"
+                    >DAX</span
+                  >
+                </div>
+
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="group mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-emerald-600 hover:text-emerald-800 transition-colors"
+                >
+                  View Project
+                  <iconify-icon
+                    icon="mdi:arrow-right"
+                    class="text-base transition-transform duration-300 group-hover:translate-x-1"
+                  ></iconify-icon>
+                </a>
+              </div>
+            </div>
+
+            <!-- card 4 -->
+            <div
+              class="w-full sm:w-85 rounded-2xl overflow-hidden bg-white shadow-lg border border-slate-100 hover:-translate-y-1 hover:shadow-2xl transition-all duration-300"
+            >
+              <div
+                class="relative h-48 bg-linear-to-br from-orange-500 via-amber-500 to-yellow-400 flex items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="./assets/images/project4.png"
+                  alt="E-commerce Sales Analysis preview"
+                  class="w-[85%] rounded-lg shadow-[0_20px_35px_-10px_rgba(0,0,0,0.6)] -rotate-1"
+                />
+              </div>
+
+              <div class="p-6">
+                <h3 class="text-lg font-semibold text-slate-900">
+                  E-commerce Sales Analysis
+                </h3>
+
+                <ul class="mt-3 space-y-1.5 text-sm text-slate-600">
+                  <li class="flex items-start gap-2">
+                    <iconify-icon
+                      icon="mdi:check-circle"
+                      class="text-orange-500 mt-0.5 shrink-0"
+                    ></iconify-icon>
+                    Created an insightful dashboard for 2015 sales, analyzing
+                    growth trends across 4 product categories using pivot tables
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <iconify-icon
+                      icon="mdi:check-circle"
+                      class="text-orange-500 mt-0.5 shrink-0"
+                    ></iconify-icon>
+                    Incorporated clustered column charts, bar charts, a control
+                    combo box, and the Data Analysis add-in to surface the top
+                    10 products
+                  </li>
+                </ul>
+
+                <div class="mt-4 flex flex-wrap gap-2">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-orange-50 text-orange-600 text-xs font-medium"
+                    >MS Excel</span
+                  >
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-orange-50 text-orange-600 text-xs font-medium"
+                    >Pivot Tables</span
+                  >
+                </div>
+
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="group mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-orange-600 hover:text-orange-800 transition-colors"
+                >
+                  View Project
+                  <iconify-icon
+                    icon="mdi:arrow-right"
+                    class="text-base transition-transform duration-300 group-hover:translate-x-1"
+                  ></iconify-icon>
+                </a>
+              </div>
+            </div>
+            <!-- card 5 -->
+            <div
+              class="w-full sm:w-85 rounded-2xl overflow-hidden bg-white shadow-lg border border-slate-100 hover:-translate-y-1 hover:shadow-2xl transition-all duration-300"
+            >
+              <div
+                class="relative h-48 bg-linear-to-br from-fuchsia-500 via-pink-500 to-rose-400 flex items-center justify-center overflow-hidden"
+              >
+                <div
+                  class="flex flex-col items-center justify-center gap-3 text-white"
+                >
+                  <iconify-icon
+                    icon="mdi:chart-timeline-variant-shimmer"
+                    class="text-6xl animate-pulse"
+                  ></iconify-icon>
+                  <span
+                    class="text-xs font-medium tracking-wide uppercase opacity-90"
+                    >Analyzing Data...</span
+                  >
+                </div>
+
+                <span
+                  class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-white/20 backdrop-blur-sm text-white text-[11px] font-semibold flex items-center gap-1"
+                >
+                  <iconify-icon
+                    icon="mdi:progress-clock"
+                    class="text-sm"
+                  ></iconify-icon>
+                  In Progress
+                </span>
+              </div>
+
+              <div class="p-6">
+                <h3 class="text-lg font-semibold text-slate-900">
+                  Project in Working
+                </h3>
+
+                <div class="mt-4 space-y-2.5">
+                  <div
+                    class="h-3 w-full rounded-full bg-slate-200 animate-pulse"
+                  ></div>
+                  <div
+                    class="h-3 w-11/12 rounded-full bg-slate-200 animate-pulse"
+                  ></div>
+                  <div
+                    class="h-3 w-4/5 rounded-full bg-slate-200 animate-pulse"
+                  ></div>
+                  <div
+                    class="h-3 w-10/12 rounded-full bg-slate-200 animate-pulse"
+                  ></div>
+                </div>
+
+                <div class="mt-4 flex flex-wrap gap-2">
+                  <span
+                    class="h-6 w-16 rounded-full bg-fuchsia-50 animate-pulse"
+                  ></span>
+                  <span
+                    class="h-6 w-20 rounded-full bg-fuchsia-50 animate-pulse"
+                  ></span>
+                  <span
+                    class="h-6 w-24 rounded-full bg-fuchsia-50 animate-pulse"
+                  ></span>
+                </div>
+
+                <span
+                  class="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-slate-400 cursor-not-allowed"
+                >
+                  Coming Soon
+                  <iconify-icon
+                    icon="mdi:clock-outline"
+                    class="text-base"
+                  ></iconify-icon>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+
+      <section id="contact" class="relative overflow-hidden py-20 px-6">
+  <div
+    class="max-w-6xl mx-auto rounded-3xl border border-slate-200 bg-white/60 backdrop-blur-xl shadow-xl grid grid-cols-1 md:grid-cols-2 gap-10 p-8 md:p-12"
+  >
+    <!-- Left side -->
+    <div class="flex flex-col justify-center">
+      <span
+        class="text-xs font-semibold tracking-widest uppercase text-fuchsia-600"
+        >Let's Connect</span
+      >
+      <h2 class="mt-3 text-3xl md:text-4xl md:text-left font-bold text-slate-900 leading-tight">
+        Have a project in mind?<br />
+        Let's create something amazing together.
+      </h2>
+      <p class="mt-4 text-slate-600 text-sm leading-relaxed max-w-md">
+        I'm currently open to new opportunities and collaborations. Feel
+        free to reach out — I usually respond within a day or two.
+      </p>
+
+      <div class="mt-8 space-y-4">
+
+          <a href="mailto:vaishnaviguptawork21@gmail.com"
+          class="flex items-center gap-3 text-slate-700 hover:text-fuchsia-600 transition-colors"
+        >
+          <span
+            class="w-10 h-10 flex items-center justify-center rounded-full bg-slate-100"
+          >
+            <iconify-icon icon="mdi:email-outline" class="text-lg"></iconify-icon>
+          </span>
+          <span class="text-sm break-all">vaishnaviguptawork21@gmail.com</span>
+        </a>
+
+
+         <a href="#"
+          class="flex items-center gap-3 text-slate-700 hover:text-fuchsia-600 transition-colors"
+        >
+          <span
+            class="w-10 h-10 flex items-center justify-center rounded-full bg-slate-100"
+          >
+            <iconify-icon icon="mdi:phone-outline" class="text-lg"></iconify-icon>
+          </span>
+          <span class="text-sm">+91 94100 13129</span>
+        </a>
+
+        <div class="flex items-center gap-3 text-slate-700">
+          <span
+            class="w-10 h-10 flex items-center justify-center rounded-full bg-slate-100"
+          >
+            <iconify-icon icon="mdi:map-marker-outline" class="text-lg"></iconify-icon>
+          </span>
+          <span class="text-sm">Badaun, Uttar Pradesh, India</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right side: Form -->
+    <form class="flex flex-col gap-4" action="https://formspree.io/f/mgaverqg"
+  method="POST">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+        <input type="hidden" name="_next" value="localhost:5173/thank-you.html" />
+
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          required
+          class="w-full rounded-xl border border-slate-200 bg-white/70 px-4 py-3 text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-fuchsia-400"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          required
+          class="w-full rounded-xl border border-slate-200 bg-white/70 px-4 py-3 text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-fuchsia-400"
+        />
+      </div>
+
+      <input
+        type="text"
+        name="subject"
+        placeholder="Subject"
+        required
+        class="w-full rounded-xl border border-slate-200 bg-white/70 px-4 py-3 text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-fuchsia-400"
+      />
+
+      <textarea
+        name="message"
+        placeholder="Your Message"
+        rows="5"
+        required
+        class="w-full rounded-xl border border-slate-200 bg-white/70 px-4 py-3 text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-fuchsia-400 resize-none"
+      ></textarea>
+
+      <button
+        type="submit"
+        class="mt-2 inline-flex items-center justify-center gap-2 rounded-xl bg-slate-900 text-white text-sm font-semibold py-3.5 hover:bg-slate-800 transition-colors"
+      >
+        Send Message
+        <iconify-icon icon="mdi:send-outline" class="text-base"></iconify-icon>
+      </button>
+    </form>
+
+    </main>
+    <footer class="relative border-t border-slate-100 bg-white/60 backdrop-blur-xl">
+  <div class="max-w-6xl mx-auto px-6 py-12">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+      <!-- Brand -->
+      <div class="sm:col-span-2 md:col-span-1">
+        <a href="/" class="text-xl font-bold text-slate-900">
+          Vaishnavi<span class="text-fuchsia-600">.</span>
+        </a>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed max-w-xs">
+          Analyst crafting clear, actionable insights
+          from raw data with SQL, Power BI, and Excel.
+        </p>
+
+        <div class="mt-5 flex items-center gap-3">
+
+           <a href="https://github.com/VaishVaishnavi2004"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="w-9 h-9 flex items-center justify-center rounded-full bg-slate-100 text-slate-600 hover:bg-fuchsia-50 hover:text-fuchsia-600 transition-colors"
+          >
+            <iconify-icon icon="mdi:github" class="text-lg"></iconify-icon>
+          </a>
+
+           <a href="https://www.linkedin.com/in/vaishnavigupta90"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="w-9 h-9 flex items-center justify-center rounded-full bg-slate-100 text-slate-600 hover:bg-fuchsia-50 hover:text-fuchsia-600 transition-colors"
+          >
+            <iconify-icon icon="mdi:linkedin" class="text-lg"></iconify-icon>
+          </a>
+
+
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h4 class="text-sm font-semibold text-slate-900 uppercase tracking-wide">
+          Quick Links
+        </h4>
+        <ul class="mt-4 space-y-2.5 text-sm">
+          <li>
+            <a href="#about" class="text-slate-600 hover:text-fuchsia-600 transition-colors">About</a>
+          </li>
+          <li>
+            <a href="#projects" class="text-slate-600 hover:text-fuchsia-600 transition-colors">Projects</a>
+          </li>
+          <li>
+            <a href="#skills" class="text-slate-600 hover:text-fuchsia-600 transition-colors">Skills</a>
+          </li>
+          <li>
+            <a href="#contact" class="text-slate-600 hover:text-fuchsia-600 transition-colors">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Resources -->
+      <div>
+        <h4 class="text-sm font-semibold text-slate-900 uppercase tracking-wide">
+          Resources
+        </h4>
+        <ul class="mt-4 space-y-2.5 text-sm">
+          <li>
+            <a href="#" class="text-slate-600 hover:text-fuchsia-600 transition-colors">Resume</a>
+          </li>
+          <li>
+            <a href="https://github.com/VaishVaishnavi2004" target="_blank" rel="noopener noreferrer" class="text-slate-600 hover:text-fuchsia-600 transition-colors">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/vaishnavigupta90" target="_blank" rel="noopener noreferrer" class="text-slate-600 hover:text-fuchsia-600 transition-colors">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom bar -->
+    <div
+      class="mt-10 pt-6 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4"
+    >
+      <p class="text-xs text-slate-500">
+        © <span id="year"></span> Vaishnavi. All rights reserved.
+      </p>
+      <p class="text-xs text-slate-500 flex items-center gap-1">
+        Built with
+        <iconify-icon icon="mdi:heart" class="text-fuchsia-500"></iconify-icon>
+        using JS & Tailwind CSS
+      </p>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
