@@ -157,3 +157,21 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     }
   });
 });
+
+  const form = document.getElementById("contact-form");
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault(); // normal submit rok do
+    const data = new FormData(form);
+
+    const response = await fetch(form.action, {
+      method: "POST",
+      body: data,
+      headers: { Accept: "application/json" }
+    });
+
+    if (response.ok) {
+      window.location.href = "/thank-you.html"; // khud redirect karo
+    } else {
+      alert("Kuch gadbad ho gayi, dobara try karo.");
+    }
+  });
